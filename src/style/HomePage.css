@@ -1,0 +1,52 @@
+/* External CSS for HomePage.js */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #282c34;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navBar {
+    background-color:rgb(143, 188, 151);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .navButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .mainContent {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color:#282c34;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    color: #fff;
+  }
+
+  .App-logo {
+    height: 8vmin;
+    pointer-events: none;
+  }
